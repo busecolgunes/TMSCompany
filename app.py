@@ -3,6 +3,8 @@ import pandas as pd
 from datetime import datetime
 import plotly.express as px
 
+st.legacy_caching.clear_cache()
+
 # Load Excel data for customers and marketers
 customers_file = 'customers.xlsx'
 marketers_file = 'marketers.xlsx'
